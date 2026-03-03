@@ -1,6 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-for (int i = 1; i < 10; i++)
+﻿for (int i = 1; i < 10; i++)
 {
-    Console.WriteLine(i);
+    Console.Write(i);
+    Console.Write(" x 7 = ");
+    Console.WriteLine(i*7);
 }
