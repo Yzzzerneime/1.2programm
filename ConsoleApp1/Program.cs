@@ -1,6 +1,17 @@
-﻿for (int i = 1; i < 10; i++)
+﻿namespace MultiplicationTable
 {
-    Console.Write(i);
-    Console.Write(" x 7 = ");
-    Console.WriteLine(i*7);
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Логика
+            var table = Logic.GenerateMultiplicationTable(7);
+            
+            // Взаимодействие с пользователем
+            foreach (var line in table)
+            {
+                Console.WriteLine(line);
+            }
+        }
+    }
 }
